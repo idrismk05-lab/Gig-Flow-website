@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Browse Freelancers — GIGFLOW</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">GIGFLOW<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="browse.html" class="active">Browse Freelancers</a></li>
+      <li><a href="how-it-works.html">How It Works</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="browse.html" class="btn btn-outline">Find Work</a>
+      <a href="contact.html" class="btn btn-primary">Hire Talent</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <h1>Browse Freelancers</h1>
+  <p>Search and filter talent by category to find the right fit for your gig.</p>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="filter-bar">
+      <input type="text" id="searchInput" placeholder="Search by name or skill (e.g. React, branding)...">
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Graphic Design">Graphic Design</option>
+        <option value="Writing & Editing">Writing &amp; Editing</option>
+        <option value="Virtual Assistance">Virtual Assistance</option>
+        <option value="Video Editing">Video Editing</option>
+        <option value="Social Media">Social Media</option>
+      </select>
+    </div>
+
+    <p class="results-count" id="resultsCount">Showing all freelancers</p>
+
+    <div class="freelancer-grid" id="freelancerGrid"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div>
+      <div class="logo" style="margin-bottom:12px;">GIGFLOW<span class="dot">.</span></div>
+      <p>Nigeria's marketplace for freelance talent — connecting skilled professionals with the clients who need them.</p>
+    </div>
+    <div>
+      <h4>Platform</h4>
+      <ul>
+        <li><a href="browse.html">Browse Freelancers</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li>hello@gigflow.ng</li>
+        <li>+234 803 555 0192</li>
+        <li>Lagos, Nigeria</li>
+      </ul>
+    </div>
+  </div>
+  <p class="footer-bottom">© 2026 GigFlow. All rights reserved.</p>
+</footer>
+
+<script src="js/browse.js"></script>
+</body>
+</html>
